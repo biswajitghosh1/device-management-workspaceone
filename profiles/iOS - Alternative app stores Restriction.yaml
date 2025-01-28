@@ -1,0 +1,22 @@
+# This is a profile which will block iOS alternative app store on Corporate devices so that the users can only download apps from official Apple App Store.
+
+# There are no DDUI settings required but just custom settings
+
+<dict>
+      <key>allowMarketplaceAppInstallation</key>
+      <false/>
+      <key>PayloadDisplayName</key>
+      <string>Restrictions</string>
+      <key>PayloadDescription</key>
+      <string>Block Third-Party App Marketplaces</string>
+      <key>PayloadOrganization</key>
+      <string></string>
+      <key>PayloadType</key>
+      <string>com.apple.applicationaccess</string>
+      <key>PayloadUUID</key>
+      <string>a9f1b84e-6695-4f47-bcfa-e6334228bce1</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>786da36c-8283-48cd-9a23-91dde10cf4d3.Restrictions</string>
+</dict>

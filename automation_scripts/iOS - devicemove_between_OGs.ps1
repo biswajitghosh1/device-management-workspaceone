@@ -1,4 +1,11 @@
-# The script includes details for the API key and the API endpoints. The only information it's required is to get the device IDs which can be obtained from WS1.
+# The script includes details for the API key and the API endpoints and no additional API setup is required. The following needs to be edited / supplied in order for the script to run:
+     # Organizational Group ID
+     # Device IDs of the devices which needs to be moved.
+
+#The .csv file containing the device IDs needs to be stored in the same folder as the script and should be named as: "devicemove.csv". Once the script is finished and it encounters an error, then the log file will also be saved in the same folder as the script and the CSV file which can be reviewed to understand the error in details.
+
+# ------ PLEASE DO NOT EDIT BELOW THIS LINE -------
+
 
 #API Endpoint Information
 $SourceApiKey = "OyeGrzrEI7RBQWVL5VcJrBqtvit2EZqGiQqyEO5Zwb8="

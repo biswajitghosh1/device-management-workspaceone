@@ -1,6 +1,6 @@
-# This script is developed to scan the macbooks to ensure its compliant to CIS Baseline and needs to be deployed only via Workspace One.
+# This script is developed to scan the MacBooks to ensure its compliant to CIS Baseline and needs to be deployed via Workspace One MDM.
 
-#----COPY BELOW THIS LINE------
+# ----Do not modify below this line and COPY below this line to be deployed in MDM------
 
 #!/bin/zsh
 
